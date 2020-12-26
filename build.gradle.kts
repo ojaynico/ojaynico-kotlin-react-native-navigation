@@ -66,7 +66,7 @@ publishing {
             version = artifactVersion
             from(components["kotlin"])
 
-            artifact(sourcesJar)
+            //artifact(sourcesJar)
 
             pom.withXml {
                 asNode().apply {
