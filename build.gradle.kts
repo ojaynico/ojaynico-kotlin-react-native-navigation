@@ -114,7 +114,7 @@ bintray {
         version.apply {
             name = artifactVersion
             desc = pomDesc
-            released = "2020-11-17"
+            released = "2020-12-26"
             vcsTag = artifactVersion
         }
     }
