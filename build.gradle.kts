@@ -4,7 +4,7 @@ plugins {
     id("com.jfrog.bintray") version "1.8.4"
 }
 group = "ojaynico.kotlin.react.native.navigation"
-version = "1.0.1"
+version = "1.0.2"
 
 val artifactName = project.name
 val artifactGroup = project.group.toString()
@@ -66,7 +66,7 @@ publishing {
             version = artifactVersion
             from(components["kotlin"])
 
-            //artifact(sourcesJar)
+            artifact(sourcesJar)
 
             pom.withXml {
                 asNode().apply {
