@@ -6,11 +6,11 @@ Kotlin wrappers for react-native-navigation by wix and react-native-navigation-d
 
 Java Version : 14
 
-Kotlin Version : 1.4.10
+Kotlin Version : 1.4.21
 
-React Version : 16.13.1
+React Version : 17.0.0
 
-React Native Version : 0.63.3
+React Native Version : 0.63.4
 
 React Native Navigation By Wix Version : 7.6.0
 
@@ -37,7 +37,7 @@ repositories {
 }
 
 dependencies {
-    implementation("ojaynico.kotlin.react.native.navigation:ojaynico-kotlin-react-native-navigation:1.0.2")
+    implementation("ojaynico.kotlin.react.native.navigation:ojaynico-kotlin-react-native-navigation:1.0.3")
 }
 ```
 
