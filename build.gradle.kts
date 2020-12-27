@@ -4,7 +4,7 @@ plugins {
     id("com.jfrog.bintray") version "1.8.4"
 }
 group = "ojaynico.kotlin.react.native.navigation"
-version = "1.0.0"
+version = "1.0.1"
 
 val artifactName = project.name
 val artifactGroup = project.group.toString()

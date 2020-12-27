@@ -38,4 +38,18 @@ external class EventsRegistry {
     fun registerAppLaunchedListener(callback: () -> dynamic): dynamic
     fun registerComponentListener(listener: dynamic, componentId: String): dynamic
     fun bindComponent(component: Component<*,*>, componentId: String): dynamic
+    fun registerComponentDidAppearListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerComponentDidDisappearListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerCommandCompletedListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerBottomTabSelectedListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerBottomTabPressedListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerBottomTabLongPressedListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerNavigationButtonPressedListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerModalDismissedListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerModalAttemptedToDismissListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerSearchBarUpdatedListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerSearchBarCancelPressedListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerPreviewCompletedListener(callback: (event: dynamic) -> dynamic): dynamic
+    fun registerCommandListener(callback: (name: String, params: dynamic) -> dynamic): dynamic
+    fun registerScreenPoppedListener(callback: (event: dynamic) -> dynamic): dynamic
 }
