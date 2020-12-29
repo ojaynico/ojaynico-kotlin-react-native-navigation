@@ -1,6 +1,6 @@
 # ojaynico-kotlin-react-native-navigation
 
-[ ![Download](https://api.bintray.com/packages/ojaynico/ojaynico-kotlin-react-native-navigation/ojaynico-kotlin-react-native-navigation/images/download.svg?version=1.0.3) ](https://bintray.com/ojaynico/ojaynico-kotlin-react-native-navigation/ojaynico-kotlin-react-native-navigation/1.0.3/link)
+[ ![Download](https://api.bintray.com/packages/ojaynico/ojaynico-kotlin-react-native-navigation/ojaynico-kotlin-react-native-navigation/images/download.svg?version=1.0.4) ](https://bintray.com/ojaynico/ojaynico-kotlin-react-native-navigation/ojaynico-kotlin-react-native-navigation/1.0.4/link)
 
 Kotlin wrappers for react-native-navigation by wix and react-native-navigation-drawer-extension
 
@@ -37,7 +37,7 @@ repositories {
 }
 
 dependencies {
-    implementation("ojaynico.kotlin.react.native.navigation:ojaynico-kotlin-react-native-navigation:1.0.3")
+    implementation("ojaynico.kotlin.react.native.navigation:ojaynico-kotlin-react-native-navigation:1.0.4")
 }
 ```
 
