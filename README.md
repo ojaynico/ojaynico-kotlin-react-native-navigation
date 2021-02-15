@@ -1,14 +1,14 @@
 # ojaynico-kotlin-react-native-navigation
 
-[ ![Download](https://api.bintray.com/packages/ojaynico/ojaynico-kotlin-react-native-navigation/ojaynico-kotlin-react-native-navigation/images/download.svg?version=1.0.4) ](https://bintray.com/ojaynico/ojaynico-kotlin-react-native-navigation/ojaynico-kotlin-react-native-navigation/1.0.4/link)
+[Download](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-navigation/1.0.5/pom)
 
 Kotlin wrappers for react-native-navigation by wix and react-native-navigation-drawer-extension
 
 Java Version : 14
 
-Kotlin Version : 1.4.21
+Kotlin Version : 1.4.30
 
-React Version : 17.0.0
+React Version : 17.0.1
 
 React Native Version : 0.63.4
 
@@ -32,12 +32,12 @@ In your react native application shared module (a kotlin gradle project), update
 
 ```kotlin
 repositories {
-    maven { url = uri("https://dl.bintray.com/ojaynico/ojaynico-kotlin-react-native-navigation") }
+    mavenCentral()
     jcenter()
 }
 
 dependencies {
-    implementation("ojaynico.kotlin.react.native.navigation:ojaynico-kotlin-react-native-navigation:1.0.4")
+    implementation("com.github.ojaynico:ojaynico-kotlin-react-native-navigation:1.0.5")
 }
 ```
 
