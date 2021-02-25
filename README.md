@@ -2,6 +2,8 @@
 
 [Download](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-navigation/1.0.5/pom)
 
+![https://kotl.in/jsirsupported](https://img.shields.io/badge/Kotlin%2FJS-IR%20supported-yellow)
+
 Kotlin wrappers for react-native-navigation by wix and react-native-navigation-drawer-extension
 
 Java Version : 14
