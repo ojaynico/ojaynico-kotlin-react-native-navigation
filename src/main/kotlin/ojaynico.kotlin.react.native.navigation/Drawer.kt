@@ -17,12 +17,10 @@ external class RNNDrawer {
 
 external interface SideMenuViewProps : RProps {
     var style: dynamic
-    var right: () -> Unit
-    var left: () -> Unit
-    var swipeSensitivity: Number
-    var sideMargin: Number
-    var sideMarginLeft: Number
-    var sideMarginRight: Number
+    var drawerName: String
+    var direction: String
+    var passProps: dynamic
+    var options: dynamic
 }
 
 external class SideMenuView : Component<SideMenuViewProps, RState> {
