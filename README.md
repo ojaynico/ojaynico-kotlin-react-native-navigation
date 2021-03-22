@@ -1,22 +1,21 @@
 # ojaynico-kotlin-react-native-navigation
 
-[Download](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-navigation/1.0.5/pom)
-
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ojaynico/ojaynico-kotlin-react-native-navigation/badge.svg)](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-navigation/1.0.7/pom)
 [![Kotlin JS IR supported](https://img.shields.io/badge/Kotlin%2FJS-IR%20supported-yellow)](https://kotl.in/jsirsupported)
 
 Kotlin wrappers for react-native-navigation by wix and react-native-navigation-drawer-extension
 
 Java Version : 14
 
-Kotlin Version : 1.4.30
+Kotlin Version : 1.4.31
 
 React Version : 17.0.1
 
 React Native Version : 0.63.4
 
-React Native Navigation By Wix Version : 7.6.0
+React Native Navigation By Wix Version : 7.11.3
 
-React Native Navigation Drawer Extension Version : 3.2.0
+React Native Navigation Drawer Extension Version : 4.0.0
 
 **Follow instructions in this repository on how to setup a fully working react native app**
 
@@ -49,7 +48,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.ojaynico:ojaynico-kotlin-react-native-navigation:1.0.5")
+    implementation("com.github.ojaynico:ojaynico-kotlin-react-native-navigation:1.0.7")
 }
 ```
 

@@ -5,7 +5,7 @@ plugins {
     signing
 }
 group = "com.github.ojaynico"
-version = "1.0.6"
+version = "1.0.7"
 
 val artifactName = project.name
 val artifactGroup = project.group.toString()
@@ -44,7 +44,7 @@ dependencies {
     implementation("org.jetbrains:kotlin-extensions:1.0.1-pre.148-kotlin-1.4.30")
     implementation(npm("react", "17.0.1"))
     implementation(npm("react-native", "0.63.4"))
-    implementation(npm("react-native-navigation", "7.11.2"))
+    implementation(npm("react-native-navigation", "7.11.3"))
     implementation(npm("react-native-navigation-drawer-extension", "4.0.0"))
 }
 
