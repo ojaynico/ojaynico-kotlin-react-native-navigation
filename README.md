@@ -1,3 +1,5 @@
+# NOTE: Development on this project has been stopped. All effort will be put into improving the core React Native library which can be found in the repository https://github.com/ojaynico/ojaynico-kotlin-react-native
+
 # ojaynico-kotlin-react-native-navigation
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ojaynico/ojaynico-kotlin-react-native-navigation/badge.svg)](https://search.maven.org/artifact/com.github.ojaynico/ojaynico-kotlin-react-native-navigation/1.1.0/pom)
